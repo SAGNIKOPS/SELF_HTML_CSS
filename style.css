@@ -1,0 +1,92 @@
+body
+        {
+            background-color: #EEEEEE;
+            text-align: center;
+            color:#393E46 ;
+        }
+       h1
+       {
+        font-family: 'Source Code Pro', monospace;
+        font-size:50px ;
+        color: #EDEDED;
+       }
+       .front h2
+       {
+        font-family: 'Sunshiney', cursive;
+        font-size: 30px;
+        color: #3E432E;
+       }
+       .front
+       {
+        height: 100vh;
+        background-image: url(./front-background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       }
+       .second img
+       {
+        border-radius: 50%;
+       }
+       .second p
+       {
+        font-family: 'Marvel', sans-serif;
+       }
+       .second
+       {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .third
+       {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .third .first img
+       {
+        float: left;
+       }
+       .second2 img
+       {
+        float: left;
+        margin-top: 20px;
+       }
+
+       footer
+       {
+        height: 20vh;
+        background-image: url(./cool.jpg);
+        color: #CBCBD4;
+       }
+       .last
+       {
+        display: flex;
+        gap:50px;
+        justify-content: center;
+       }
+       a
+       {
+        text-decoration: none;
+       }
+       @media (max-width:748px)
+       {
+        .front
+        {
+            width: 100%;
+            height: 50%;
+        }
+        .front h1
+        {
+            font-size: 30px;
+        }
+        .front h2
+        {
+            font-size:20px ;
+        }
+       }
